@@ -1,2 +1,4 @@
 [build]
   environment = { GO_IMPORT_PATH = "github.com/vbrown608/background-functions-test" }
+  functions = "functions"
+  command = "cd functions && go get && go build -o hello-background"
